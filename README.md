@@ -2,7 +2,7 @@
 - 👀 I’m interested in cybersecurity, networking, virtualization & cloud technologies
 - 🌱 I’m currently learning network engineering & defensive security
 - 💞️ I’m looking to collaborate on homelab projects soon..
-- 📫 How to reach me ...
+- 📫 How to reach me info will be provided soon..
 
 <!---
 Netsecjock01/Netsecjock01 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
