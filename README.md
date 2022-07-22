@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Netsecjock01
-- 👀 I’m interested in cybersecurity, networking, virtualization & cloud technologies
+- 👀 I’m interested in cybersecurity, network engineering, virtualization & cloud computing
 - 🌱 I’m currently learning network engineering & defensive security
 - 💞️ I’m looking to collaborate on homelab projects soon..
 - 📫 How to reach me info will be provided soon..
