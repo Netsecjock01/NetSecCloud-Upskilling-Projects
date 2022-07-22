@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @Netsecjock01
-- 👀 I’m interested in cybersecurity, network engineering, virtualization & cloud computing
-- 🌱 I’m currently learning network engineering, defensive security & virtualization
+- 👀 I’m interested in cybersecurity, networking, virtualization & cloud computing topics/projects
+- 🌱 I’m currently learning network engineering, virtualized homelabbing & netowrk security
 - 💞️ I’m looking to collaborate on & share my homelab projects soon..
-- 📫 How to reach me info will be provided soon..
+- 📫 Info on how to reach me will be provided soon..
 
 <!---
 Netsecjock01/Netsecjock01 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
