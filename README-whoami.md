@@ -1,3 +1,4 @@
+WHOAMI?
 - 👋 Hi, I’m @Netsecjock01
 - 👀 I’m interested in cybersecurity, networking, virtualization & cloud computing topics/projects
 - 🌱 I’m currently learning network engineering, virtualized homelabbing & network security
