@@ -2,7 +2,7 @@
 - 👋 Hi, I’m "@RRMaqs_NetSecCloud"
 - 👀 I’m interested in computer enterprise networking, cybersecurity, virtualization & cloud computing topics/projects
 - 🌱 I’m currently learning network engineering, virtualized homelabing & network security
-- 💞️ I’m looking forward to collaborate & share my homelab projects soon..
+- 💞️ I’m looking forward to collaborate & share my homelab & learning projects soon..
 - 📫 Info on how to reach me will be provided on a case-to-case basis and necessity..
 
 <!---
