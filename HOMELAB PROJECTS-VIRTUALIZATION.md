@@ -17,4 +17,6 @@ h. ParrotOS Linux (open-source, security/penetration testing distribution) https
 i. Manjaro Linux (open-source, advanced security/penetration testing distribution, GUI version of Arch Linux) https://manjaro.org/
 j. TraceLabs OSINT Linux (open-source, Kali Linux-based, security intelligence-gathering distribution) https://www.tracelabs.org/
 k. PENDING: Elastic Stack (open-source, security monitoring, analytics & log management platform with Elasticsearch, Logstash, Kibana & Beats) https://www.elastic.co/elastic-stack/
+
+
 --------------------------------------------------< TO BE CONTINUED... MORE TO COME>.....................................
