@@ -6,6 +6,7 @@ Below are hands-on task exercises I researched/complied, among others, and my pa
 1) Setup/installation of virtualization software and Type 2 hypervisors (VMware Workstation and/or Oracle VirtualBox) in Windows-based environment to support virtual machines (VMs)
 
 2) Installed, configured and initially setup the following VMs in both or either VMware Workstation and Oracle VirtualBox:
+
 a. Ubuntu Linux Desktop (open-source, Debian-based distribution) https://ubuntu.com/download/desktop
 b. Kali Linux (open-source, security/penetration testing distribution) https://www.kali.org/
 c. pfSense (open-source firewall/router) https://www.pfsense.org/
