@@ -7,17 +7,27 @@ Below are hands-on task exercises I researched/complied, among others, and my pa
 
 2) Installed, configured and initially setup the following VMs in both or either VMware Workstation and Oracle VirtualBox:
 
-a. Ubuntu Linux Desktop (open-source, Debian-based distribution) https://ubuntu.com/download/desktop
-b. Kali Linux (open-source, security/penetration testing distribution) https://www.kali.org/
-c. pfSense (open-source firewall/router) https://www.pfsense.org/
-d. Splunk Enterprise (Ubuntu Linux enterprise-based, proprietary SIEM) https://www.splunk.com/en_us/products/splunk-enterprise.html
-e. Security Onion Suite (open-source SIEM, IDS/IPS, logging management, security tools) https://securityonionsolutions.com/
-f. Windows Server 2019 (proprietary, evaluation version, Active Directory feature) https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019
-g. Windows 10 Enterprise (proprietary, evaluation version, Active Directory feature) https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise
-h. ParrotOS Linux (open-source, security/penetration testing distribution) https://www.parrotsec.org/
-i. Manjaro Linux (open-source, advanced security/penetration testing distribution, GUI version of Arch Linux) https://manjaro.org/
-j. TraceLabs OSINT Linux (open-source, Kali Linux-based, security intelligence-gathering distribution) https://www.tracelabs.org/
-k. PENDING: Elastic Stack (open-source, security monitoring, analytics & log management platform with Elasticsearch, Logstash, Kibana & Beats) https://www.elastic.co/elastic-stack/
+   a. Ubuntu Linux Desktop (open-source, Debian-based distribution, https://ubuntu.com/download/desktop)
 
+   b. Kali Linux (open-source, security/penetration testing distribution) https://www.kali.org/
 
+   c. pfSense (open-source firewall/router) https://www.pfsense.org/
+
+   d. Splunk Enterprise (Ubuntu Linux enterprise-based, proprietary SIEM) https://www.splunk.com/en_us/products/splunk-enterprise.html
+
+   e. Security Onion Suite (open-source SIEM, IDS/IPS, logging management, security tools) https://securityonionsolutions.com/
+
+   f. Windows Server 2019 (proprietary, evaluation version, Active Directory feature) https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019
+
+   g. Windows 10 Enterprise (proprietary, evaluation version, Active Directory feature) https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise
+
+   h. ParrotOS Linux (open-source, security/penetration testing distribution) https://www.parrotsec.org/
+
+   i. Manjaro Linux (open-source, advanced security/penetration testing distribution, GUI version of Arch Linux) https://manjaro.org/
+
+   j. TraceLabs OSINT Linux (open-source, Kali Linux-based, security intelligence-gathering distribution) https://www.tracelabs.org/
+
+   k. PENDING: Elastic Stack (open-source, security monitoring, analytics & log management platform with Elasticsearch, Logstash, Kibana & Beats)                             https://www.elastic.co/elastic-stack/
+   
+   
 --------------------------------------------------< TO BE CONTINUED... MORE TO COME>.....................................
