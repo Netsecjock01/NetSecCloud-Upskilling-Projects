@@ -13,33 +13,33 @@ Do the exercises below. One skill builds on another skill. Start with the basics
 
 3. Install Windows Server (VM or standard hardware dealer's choice) GUI Mode.
 
-4. Set up the server as a basic router between the two networks. You'll need 2 NICs to accomplish this (NOTE: unless you have a really good reason for this, you will never do this in a production environment. But because this is a lab situation in VMware Workstation and because the product does not support routing between networks, you'll need to put something in place very basic. Windows routing will get the job done and will be on an MCP exam)
+4. Set up the Windows server as a basic router between the two networks. You'll need 2 NICs to accomplish this (NOTE: unless you have a really good reason for this, you will never do this in a production environment. But because this is a lab situation in VMware Workstation and because the product does not support routing between networks, you'll need to put something in place very basic. Windows routing will get the job done and will be on an MCP exam)
 
 5. Install another server, single NIC on the server VLAN
 
-6. Create your first AD domain controller. Install this in GUI mode
+6. Create your first AD domain controller (DC). Install this in GUI mode
 
-7. Create another server but this time make it a core server. Make it a domain controller
+7. Create another Windows server but this time make it a Core Server. Make it a DC.
 
 8. Test AD replication via the gui and cmd.
 
-9. Create an organizationla unit (OU) for your workstations, create an OU for your users, and an OU for groups. From now on, any new computer or new user account must go into their respective OU. DO NOT MOVE THE DOMAIN CONTROLLERS FROM THE DOMAIN CONTROLLER OU.
+9. Create an organizational unit (OU) for your workstations, create an OU (organizational unit) for your users, and an OU for groups. From now on, any new computer or new user account must go into their respective OU. DO NOT MOVE THE DOMAIN CONTROLLERS FROM THE DOMAIN CONTROLLER OU.
 
-10. Check out DNS. Do you have a Reverse Lookup zone? No? Then set it up.
+10. Check out DNS. Do you have a Reverse Lookup zone? If yes, good. If no, then set it up.
 
 11. Check out DNS. Records can get old and out of date and will screw up name to IP resolution. Make it so that scavenging happens automatically.
 
-12. You need to block Facebook.com via windows DNS. Make it so that when a DNS look up is performed, computers use a loop back address. Test this via cmd to make sure it resolves as expected.
+12. You need to block Facebook.com via windows DNS. Make it so that when a DNS look up is performed, computers use a loop back address. Test this via CMD to make sure it resolves as expected.
 
-13. Setup DHCP on the first domain controller.
+13. Setup DHCP on the first DC.
 
 14. Setup a scope to hand out IPs for the Desktop VLAN. Make it so that this DHCP scope will be able to give endpoints the information they need networking wise to join a domain
 
-15. Install a Windows 7 or newer PC on the desktop VLAN
+15. Install a Windows 7 or newer PC OS on the Desktop VLAN
 
-16. Your desktop's aren't getting IPs. Why? (hint: it's a routing/broadcast/relay issue)
+16. Your desktop's aren't getting IPs. Why? (Hint: It's a routing/broadcast/relay issue)
 
-17. Join that desktop to the domain
+17. Join that desktop to the dmain
 
 18. Now that you're getting IPs from your DHCP server, configure DHCP clustering. Loadbalancing or failover is your choice. Now test it.
 
@@ -53,31 +53,31 @@ Do the exercises below. One skill builds on another skill. Start with the basics
 
 23. Create an AD group. Add the first non-admin account to this group.
 
-24. On that desktop, install the RSAT tools so you can remotely manage another computer
+24. On that desktop, install the RSAT (Remote Server Administration Tools) you can remotely manage another computer.
 
-25. Setup remote management on the core server so that it can be managed from the MMC of another computer (there are a number of ways to do this)
+25. Setup remote management on the core Windows server so that it can be managed from the MMC of another computer (There are a number of ways to do this)
 
-26. Find out what server is holding the Flexible Single Master Operation (FSMO) roles via the gui and the command prompt.
+26. Find out what server is holding the Flexible Single Master Operation (FSMO) roles via the GUI and the CMD prompt.
 
-27. Split the FSMO roles between the servers. Try to keep forest level and domain level roles together.
+27. Split the FSMO roles between the Windows servers. Try to keep Forest level and Domain level roles together.
 
-28. On one of the domain controllers, create a file share set it so that only administrators and the second non admin account have access to it. Create another folder and give only the AD group you created permissions.
+28. On one of the DCs, create a file share, set it so that only Administrators and the second non-admin account have access to it. Create another folder and give only the AD group you created permissions.
 
-29. Use group policy to map both shares as network drives as a computer policy to the desktops.
+29. Use Group Policy to map both shares as network drives & as a computer policy to the desktops.
 
 30. Login to the desktop as the first domain user. Do you see the network drive mapped in windows explorer? No? Use gpresult to find out why. If you do see it, try to access the drive. You should be denied if you set permissions correctly. Login as the second domain user, they should be able to open the mapped drive.
 
 31. What if the account in the group tries to access the second drive? You should be able to get in.
 
-32. Login to the workstation as the second non-admin account. You should not have access to this drive because you are not in the group. Do not log off. Add this account to the group. Can you access the drive now? No? Logoff and login back in. Can you access the drive now?
+32. Login to the workstation as the second non-admin account. You should not have access to this drive because you are not in the group. Do not log off. Add this account to the group. Can you access the drive now? If no, logoff and login back in. Can you access the drive now? You should.
 
-33. Remove the share from the domain controller. We don't like putting shares on domain controllers if we don't have to.
+33. Remove the share from the DC. We don't like putting shares on DCs if we don't have to.
 
-34. Build out another two servers and join it to the domain as member servers.
+34. Build out another two Windows servers and join it to the domain as member servers.
 
 35. Install DFS and File server roles/features on both servers.
 
-36. Create a file share on bother servers with the same folder name. Create files on both servers. Make sure they are different. (i.e server1 will have "TextDoc01", server 2 will have "TextDoc02" in their shares).
+36. Create a file share on bother servers with the same folder name. Create files on both servers. Make sure they are different. (i.e Server1 will have "TextDoc01", Server 2 will have "TextDoc02" in their shares).
 
 37. Create a DFS name space. Add those shares to the name space.
 
@@ -95,31 +95,33 @@ Do the exercises below. One skill builds on another skill. Start with the basics
 
 44. Configure WSUS so that you will only download Security updates for the desktop and server OS's ( highly recommend that you do not download any updates if you have access to the internet from this server)
 
-45. Bonus points, install WSUS on another server and create a downstream server)
+45. Bonus points, install WSUS (Windows Server Update Services) on another server and create a downstream server)
 
 46. Create some groups in WSUS. Servers and workstations will do nicely.
 
 47. Create a new group policy that points workstations into the WSUS workstation group, points to WSUS for updates, and stop workstations from automatically downloading updates.
 
-48. Read up on approving and pushing updates since the current assumption is that there are no updates to be pushed in this enclosed test network since there is no internet access to down load them. I believe there is a way to manually add updates to WSUS but I'm a bit foggy on that. Research it.
+48. Read up on approving and pushing updates since the current assumption is that there are no updates to be pushed in this enclosed test network since there is no internet access to down load them. (TIP: I believe there is a way to manually add updates to WSUS. Research it.)
 
 49. Do the same for servers.
 
-50. create a new AD user via powershell.
+50. create a new AD user via Powershell.
 
-51. Create a new AD group via powershell.
+51. Create a new AD group via Powershell.
 
-52. Print a list of all domain users and computers in powershell, names only
+52. Print a list of all Domain users and computers in Powershell (names only)
 
-53. Use powershell to pull a list of users who have new york as their office. If no users have new york listed as their office, use powershell to set that attribute and then pull users who have new york as their office.
+54. Use Powershell to pull a list of users who have new york as their office. If no users have new york listed as their office, use Powershell to set that attribute and then pull users who have new york as their office.
 
-54. Remove a user account from AD using powershell
+54. Remove a user account from AD using Powershell
 
-55. Add a user to a group using powershell
+55. Add a user to a group using Powershell
 
-56. Provision new AD users via a CSV in powershell
+56. Provision new AD users via a CSV in Powershell
 
-***This is really only scratching the surface of a typical medium-large to enterprise level network. But this should be enough to get you started.
+***This is really only scratching the surface of a typical medium-large to enterprise level Windows server network. But this should be enough to get you started.
+
+
 
 B. **Linux SysAdmin**
 *(#CTTO source: https://www.reddit.com/r/linuxadmin/comments/2s924h/comment/cnnw1ma/)* 
@@ -163,6 +165,6 @@ Do all tasks below and you will be fully exposed to every aspect of Linux Enterp
 
 19. Destroy every secondary machine you've created and use the above profile to recreate them, joining them to the clusters as needed. (Status: Pending)
 
-20. Bonus exercise: create three more VMs. A CentOS 5, 6, and 7 machine. On each of these machines, set them up to allow you to create custom RPMs and import them into the Spacewalk server instance. Ensure your Puppet configurations work for all three and produce like-for-like behaviors. (Status: Pending)
+20. Bonus exercise: Create three more VMs. A CentOS 5, 6, and 7 machine. On each of these machines, set them up to allow you to create custom RPMs and import them into the Spacewalk server instance. Ensure your Puppet configurations work for all three and produce like-for-like behaviors. (Status: Pending)
 
 --------------------------------------------------< TO BE CONTINUED... MORE TO COME >.....................................................................
