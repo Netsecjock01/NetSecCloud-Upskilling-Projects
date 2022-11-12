@@ -7,7 +7,7 @@ A. **Windows SysAdmin**
 *(#CTTO source: https://www.reddit.com/r/sysadmin/comments/3z7qd9/practice_to_become_a_windows_sysadmin/)*
 
 Do the exercises below. One skill builds on another skill. Start with the basics:
-1. Construct a closed virtual network. I used VMware Workstation hypervisor to accomplish this and this assumes windows Server 2012R2 VM (Try the newer Windows Server 2019 VM). Also, for this purposes of this lab, turn off the Windows firewall. In real life, you'll need to open ports as you see fit. In some networks, it's standard that all servers have their firewalls turned off. It really depends on your environment and what rules they follow.
+1. Construct a closed virtual network. I used VMware Workstation hypervisor to accomplish this and this assumes Windows Server 2012R2 VM (Try the newer Windows Server 2019 or 2022 Evaluation copies from MS). Also, for this purposes of this lab, turn off the Windows firewall. In real life, you'll need to open ports as you see fit. In some networks, it's standard that all servers have their firewalls turned off. It really depends on your environment and what rules they follow.
 
 2. Create two networks/VLANs (desktops and servers)
 
