@@ -1,5 +1,8 @@
 # NetSecCloud-Learning-Projects
-Config files for my GitHub profile.
+
+*(This is a work in progress subject to updates,changes,revisions, etc...)
+
+Below are hands-on task exercises I researched/complied, among pthers, and my part of my self-directed, personal and experimental IT homelab projects to help build/develop practical skillsets thru "tinkering" particularly in features, funtionalities or use cases in the area of comptuer system administration as well as topics on computer networking, cybersecurity, virtualization, cloud computing/devops, among others, as well as to help supplement/reinforce theoritical concepts, technical courses and related training I have undertaken or am currently taking in line with a favorite mantra, "Familiarity breeds mastery". It will be subject to modifications/updates periodically as my schedule or time permits:
 
 B. **Linux SysAdmin**
 *(#CTTO source: https://www.reddit.com/r/linuxadmin/comments/2s924h/comment/cnnw1ma/)* 
@@ -31,7 +34,7 @@ Do all tasks below and you will be fully exposed to every aspect of Linux Enterp
 
 13. Deploy another VM. On this VM, install postfix. Set it up to use a gmail account to allow you to have it send emails, and receive messages only from your internal network. (Status: Pending)
 
-14.Deploy another VM. On this VM, set up a Nagios server. Have it use snmp to monitor the communication state of every relevant service involved above. This means doing a "is the right port open" check, and a "I got the right kind of response" check and "We still have filesystem space free" check. (Status: Pending)
+14. Deploy another VM. On this VM, set up a Nagios server. Have it use snmp to monitor the communication state of every relevant service involved above. This means doing a "is the right port open" check, and a "I got the right kind of response" check and "We still have filesystem space free" check. (Status: Pending)
 
 15. Deploy another VM. On this VM, set up a syslog daemon to listen to every other server's input. Reconfigure each other server to send their logging output to various files on the syslog server. (For extra credit, set up logstash or kibana or greylog to parse those logs.) (Status: Pending)
 
