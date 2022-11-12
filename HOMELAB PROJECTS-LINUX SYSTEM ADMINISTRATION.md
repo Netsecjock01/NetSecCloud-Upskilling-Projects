@@ -4,7 +4,7 @@
 
 Below are hands-on task exercises I researched/complied, among pthers, and my part of my self-directed, personal and experimental IT homelab projects to help build/develop practical skillsets thru "tinkering" particularly in features, funtionalities or use cases in the area of comptuer system administration as well as topics on computer networking, cybersecurity, virtualization, cloud computing/devops, among others, as well as to help supplement/reinforce theoritical concepts, technical courses and related training I have undertaken or am currently taking in line with a favorite mantra, "Familiarity breeds mastery". It will be subject to modifications/updates periodically as my schedule or time permits:
 
-B. **Linux SysAdmin**
+**Linux SysAdmin**
 *(#CTTO source: https://www.reddit.com/r/linuxadmin/comments/2s924h/comment/cnnw1ma/)* 
 
 Do all tasks below and you will be fully exposed to every aspect of Linux Enterprise systems administration:
