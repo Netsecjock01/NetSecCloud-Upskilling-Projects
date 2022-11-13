@@ -1,4 +1,4 @@
-# Homelab Projects - Linux System Administration
+# Upskilling Projects - Linux System Administration
 
 *(This is a work in progress subject to updates,changes,revisions, etc...)
 
