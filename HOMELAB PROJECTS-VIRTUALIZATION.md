@@ -3,6 +3,68 @@
 
 Below are hands-on task exercises I researched/complied, among others, and my part of my self-directed, personal and experimental IT homelab projects to help build/develop practical skillsets thru "tinkering" particularly in features, funtionalities or use cases in the area of computer virtualization as well as topics on computer system administration, networking, cybersecurity and cloud computing/devops, among others, as well as to help supplement/reinforce theoritical concepts, technical courses and related training I have undertaken or am currently taking in line with a favorite mantra, "Familiarity breeds mastery". It will be subject to modifications/updates periodically as my schedule or time permits:
 
+A. VMware Workstation Player (Installation/Setup/Configuration)
+*Geek U. course summarized outline here
+- Downloading VMware Workstation Player 
+- Installing VMware Workstation Player on Windows 
+- Installing VMware Workstation Player on Linux 
+- Creating a virtual machine (VM) 
+- Installing a guest OS manually 
+- Using the Easy Install feature
+- Installing VMware Tools in Windows 
+- Installing VMware Tools in Linux
+- Starting a VM
+- Suspending a VM 
+- Drag-and-Drop 
+- Copy and Paste 
+- Enabling a shared folder for a VM 
+- Accessing a shared folder 
+- Mapping the shared folder as a network drive 
+- Connecting or disconnecting a USB device to a VM  
+- Choosing what happens when you connect USB devices 
+- Connecting USB HIDs to a VM 
+- Enabling Unity Mode
+- Changing the VM name 
+- Changing the guest OS version 
+- Changing the working directory of a VM 
+- Changing the memory allocation 
+- Moving a VM 
+- Configuring a VM for compatibility 
+- Finding out UUID of a VM
+- Configuring a VM to keep the same UUID 
+- Deleting a VM 
+- Reading the Message Log 
+- Logging in automatically to a Windows VM
+- Adding a CD-ROM drive 
+- Configuring Legacy Emulation Mode 
+- Adding a floppy drive 
+- Configuring a USB Controller 
+- Adding a USB controller 
+- Enabling isochronous USB devices 
+- Adding a new virtual hard disk 
+- Adding an existing virtual hard disk 
+- Virtual machine files overview 
+- Compacting a virtual hard disk 
+- Expanding a virtual hard disk 
+- Defragmenting a virtual hard disk 
+- Removing a virtual hard disk 
+- Adding a virtual parallel port 
+- Adding a virtual serial port 
+- Adding a generic SCSI device
+- Adding a virtual network adapter 
+- Setting up bridged networking 
+- Setting up NAT networking 
+- Setting up host-only networking 
+- How to limit network bandwidth for a VM 
+- Specify Packet Loss percentage 
+- Changing the MAC address of a VM
+- Run virtual appliances
+- Install and try a Linux VM (e.g. Ubuntu)
+
+B. Oracle VirtualBox (Installation/Setup/Configuration)
+*Geek U. course summarized outline here
+
+C. Virtual Machines Installation/Setup/Configuration
 1) Setup/installation of virtualization software and Type 2 hypervisors (VMware Workstation and/or Oracle VirtualBox) in Windows-based environment to support virtual machines (VMs)
 
 2) Installed, configured and initially setup the following VMs in both or either VMware Workstation and Oracle VirtualBox:
