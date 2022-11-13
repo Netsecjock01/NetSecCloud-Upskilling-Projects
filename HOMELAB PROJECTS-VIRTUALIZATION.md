@@ -3,9 +3,40 @@
 
 Below are hands-on task exercises I researched/complied, among others, and my part of my self-directed, personal and experimental IT homelab projects to help build/develop practical skillsets thru "tinkering" particularly in features, funtionalities or use cases in the area of computer virtualization as well as topics on computer system administration, networking, cybersecurity and cloud computing/devops, among others, as well as to help supplement/reinforce theoritical concepts, technical courses and related training I have undertaken or am currently taking in line with a favorite mantra, "Familiarity breeds mastery". It will be subject to modifications/updates periodically as my schedule or time permits:
 
-A. VMware Workstation Player (Installation/Setup/Configuration)
+A. Oracle VirtualBox (Installation/Setup/Configuration)
 *Geek U. course summarized outline here
-- Downloading VMware Workstation Player 
+- Creating virtual machines (VMs) (Status: Pending)
+- Installing guest OS
+- Installing Ubuntu
+- VirtualBox Guest Additions
+- Starting VMs 
+- Pausing VMs
+- Taking snapshots
+- Restoring snapshots
+- Deleting snapshots
+- Cloning VMs
+- VM groupings
+- Administing VMs
+- Changing VM name
+- Memory managment
+- Moving the VM
+- Removing the VM
+- Log viewer
+- Configure devices
+- Adding DVD or CD-ROM drives
+- Adding floppy drives
+- USB settings
+- Configuring networking
+- Virtual networking
+- Network modes
+- Configuring NAT Networking
+- Configuring bridged networking
+- Configuring internal networking
+- Configure host-only networking
+
+B. VMware Workstation Player (Installation/Setup/Configuration)
+*Geek U. course summarized outline here
+- Downloading VMware Workstation Player (Status: Pending)
 - Installing VMware Workstation Player on Windows 
 - Installing VMware Workstation Player on Linux 
 - Creating a virtual machine (VM) 
@@ -58,11 +89,8 @@ A. VMware Workstation Player (Installation/Setup/Configuration)
 - How to limit network bandwidth for a VM 
 - Specify Packet Loss percentage 
 - Changing the MAC address of a VM
-- Run virtual appliances
-- Install and try a Linux VM (e.g. Ubuntu)
-
-B. Oracle VirtualBox (Installation/Setup/Configuration)
-*Geek U. course summarized outline here
+- Running virtual appliances
+- Installing a Linux VM (e.g. Ubuntu)
 
 C. Virtual Machines Installation/Setup/Configuration
 1) Setup/installation of virtualization software and Type 2 hypervisors (VMware Workstation and/or Oracle VirtualBox) in Windows-based environment to support virtual machines (VMs)
